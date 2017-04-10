@@ -1,0 +1,12 @@
+{
+    "name":"YouCannotSearch",
+    "version":"1.0",
+    "manifest_version":2,
+    "description":"让你永远按不到搜索按钮",
+    "content_scripts":[
+	{
+		"matches":["*://www.google.com/"],
+		"js":["js/cannot_touch.js"]
+	}
+    ]
+}
